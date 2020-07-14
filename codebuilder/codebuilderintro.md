@@ -4,6 +4,6 @@ Ever been in a situation where you had to create medical/drug codes for more tha
 
 # How to use?
 
-Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar.
-The search can be conducted using various fields as shown in the top input boxes.
-Type the choice of query in the input boxes, for e.g.: Searching for the Read code C10F.00 yields all the medical codes represented by that Read Code, across all databases. 
+- Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar.
+- The search can be conducted using various fields as shown in the top input boxes.
+- Type the choice of query in the input boxes, for e.g.: Searching for the Read code C10F.00 yields all the medical codes represented by that Read Code, across all databases. 
