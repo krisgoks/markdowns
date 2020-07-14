@@ -14,7 +14,6 @@ Ever been in a situation where you had to create medical/drug codes for more tha
 # Wildcard
 
 Our tool supports the asterisk (\*) wildcard, it can be used to search for strings that are a subset of a bigger text. For example:
- - Searching medical codes descriptions with `*Type 1 diabetes` yeilds all the codes where the descriptions **ends with** the term 'Type 1 diabetes'
- - Similarly searching medical codes descriptions with `Type 1 diabetes*` yeilds all the codes where the descriptions **starts with** the term 'Type 1 diabetes'
+ - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **ends with** the term 'Type 1 diabetes'
+ - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **starts with** the term 'Type 1 diabetes'
  - Alternatively, we can use the asterisk operator as follows `*Type 1 diabetes*` to search for all medical codes who's descriptions **contains** the term 'Type 1 diabetes'
- 
