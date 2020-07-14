@@ -2,6 +2,7 @@
 
 Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum, HES simultaneously.
 
+---
 # How to use?
 
 - Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar.
