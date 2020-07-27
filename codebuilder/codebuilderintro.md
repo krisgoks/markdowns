@@ -1,6 +1,3 @@
-<style>
-background:red
-</style>
 
 # Search medical codes for IMRD, Gold, Aurum, Cegedim and (soon) HES databases
 
