@@ -13,8 +13,8 @@ To get medical codes you have the options to search any of the following fields.
   |--|--|
   |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the medical code|
-  |Read code| Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [1]|
-  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [2]|
+  |Read code| Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [1](https://digital.nhs.uk/services/terminology-and-classifications/read-codes)|
+  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [2](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct)|
   
 ### Drug codes
 To get drug codes you have the options to search any of the following fields. 
