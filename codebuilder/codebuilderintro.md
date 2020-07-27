@@ -13,8 +13,8 @@ To get medical codes you have the options to search any of the following fields.
   |--|--|
   |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the medical code|
-  |Read code| Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [1](https://digital.nhs.uk/services/terminology-and-classifications/read-codes)|
-  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [2](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct)|
+  |Read code| Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. <a href="https://digital.nhs.uk/services/terminology-and-classifications/read-codes" target="_blank">[1]</a> | 
+  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. <a href="https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct" target="_blank">[2]</a> |
   
 ### Drug codes
 To get drug codes you have the options to search any of the following fields. 
@@ -23,8 +23,8 @@ To get drug codes you have the options to search any of the following fields.
   |--|--|
   |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
-  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [3]|
-  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [4]|
+  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. <a href="https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms" target="_blank">[3]</a>|
+  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. <a href="https://www.whocc.no/atc_ddd_index/" target="_blank">[4]</a>|
   
 ### Using Wildcard
 
