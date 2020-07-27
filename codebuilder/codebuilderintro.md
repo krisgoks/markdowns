@@ -40,7 +40,10 @@ To download the codes as a file make sure you have shortlisted the codes you are
 
 ---
 # References
-[1] https://digital.nhs.uk/services/terminology-and-classifications/read-codes 
+[1] https://digital.nhs.uk/services/terminology-and-classifications/read-codes
+
 [2] https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct 
+
 [3] https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms
+
 [4] https://www.whocc.no/atc_ddd_index/
