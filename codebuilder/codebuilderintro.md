@@ -33,7 +33,7 @@ Our tool supports the asterisk (\*) wildcard, it can be used to search for strin
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **starts with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
 
-### Downloading the file
+# Downloading the file
 
 To download the codes as a file make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button
 
