@@ -24,7 +24,7 @@ To get drug codes you have the options to search any of the following fields.
   |--|--|
   |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
-  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [3] (https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
+  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [3](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
   |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [4](https://www.whocc.no/atc_ddd_index/)|
   
 ### Using Wildcard
