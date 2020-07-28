@@ -53,5 +53,6 @@ The following are some of the new features we are experimenting. However, these 
 
 1. Storing codes on DExtER's code library.
 1. Display frequency codes where available. 
+1. Search for exact terms.
 1. Advanced Search with more opearators.
 1. Step recorder.
