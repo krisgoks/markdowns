@@ -5,7 +5,7 @@ Ever been in a situation where you had to create medical/drug codes for more tha
 
 # How to use?
 
-First, click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms.
+Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
@@ -34,7 +34,15 @@ Our tool supports the asterisk (\*) wildcard, it can be used to search for strin
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **starts with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
 
-# Downloading the file
+### Filtering codes
+
+You will be filtering the table to either delete the codes you don't need or to select just those few that are important to you, either way, codes can be filtered in two ways. One option is to use the search bar which performs an overall keyword search as you type across all columns of the table. The another option is to use the filtering functionality to apply keyword filters on particular columns you are intersted. The former is handy when the table size is < ~15K lines, please use the later if the number items in the table is > ~15K.
+
+### Downloading the file
 
 To download the codes as a file make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button
+
+### Feedback
+
+If you have any feedback or suggestions please write to me at k.m.gokhale@bham.ac.uk, mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
 
