@@ -44,5 +44,5 @@ To download the codes as a file make sure you have shortlisted the codes you are
 
 ### Feedback
 
-If you have any feedback or suggestions please write to me at k.m.gokhale@bham.ac.uk, mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
+If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
 
