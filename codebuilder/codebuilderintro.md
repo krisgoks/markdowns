@@ -52,7 +52,7 @@ If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
 1. Storing codes on DExtER's code library.
-1. Display frequency codes where available. 
+1. Display code frequency where available. 
 1. Search for exact terms.
 1. Advanced Search with more opearators.
 1. Step recorder.
