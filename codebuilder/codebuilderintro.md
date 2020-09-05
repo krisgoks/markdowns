@@ -1,5 +1,5 @@
 
-# Search medical codes for IMRD, Gold, Aurum, Cegedim and (soon) HES databases
+# Search medical codes for IMRD, Gold, Aurum, Cegedim and HES databases
 
 Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
 
@@ -14,8 +14,8 @@ To get medical codes you have the options to search any of the following fields.
   |--|--|
   |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the medical code|
-  |Read code| Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [1](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) | 
-  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [2](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) |
+  |Medical code| This field may either represent ICD-10 codes or Read codes. ICD-10 is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems, a medical classification list by the World Health Organization[1](https://en.wikipedia.org/wiki/ICD-10). Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [2](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) | 
+  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [3](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) |
   
 ### Drug codes
 To get drug codes you have the options to search any of the following fields. 
@@ -24,8 +24,8 @@ To get drug codes you have the options to search any of the following fields.
   |--|--|
   |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
-  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [3](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
-  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [4](https://www.whocc.no/atc_ddd_index/)|
+  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [4](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
+  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
   
 ### Using Wildcard
 
@@ -53,6 +53,5 @@ The following are some of the new features we are experimenting. However, these 
 
 1. Storing codes on DExtER's code library.
 1. Display code frequency where available. 
-1. Search for exact terms.
 1. Advanced Search with more opearators.
 1. Step recorder.
