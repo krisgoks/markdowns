@@ -42,16 +42,22 @@ You will be filtering the table to either delete the codes you don't need or to 
 
 To download the codes as a file make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button
 
+### Saving the file *new feature*
+
+Saving codes in the database is similar to the download process, but here you will press the save button instead of download. 
+
+### Veiwing code lists in the library *new feature*
+
+In the library tab you can view the codes you have previously created and also search for codes created by other users. There is an option to download the code list here as well.
+
 # Feedback
 
 If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
-
 
 # Roadmap
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-1. Storing codes on DExtER's code library.
 1. Display code frequency where available. 
 1. Advanced Search with more opearators.
 1. Step recorder.
