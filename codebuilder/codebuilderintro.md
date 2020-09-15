@@ -42,13 +42,12 @@ You will be filtering the table to either delete the codes you don't need or to 
 
 To download the codes as a file make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button
 
+# *new features*
 ### Saving the file 
-*new feature*
 
 Saving codes in the database is similar to the download process, but here you will press the save button instead of download. 
 
 ### Veiwing code lists in the library 
-*new feature*
 
 In the library tab you can view the codes you have previously created and also search for codes created by other users. There is an option to download the code list here as well.
 
