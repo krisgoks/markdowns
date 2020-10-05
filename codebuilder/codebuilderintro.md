@@ -9,7 +9,7 @@ Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load cod
 
 ### Naming convention 
 
-This tool documents the email id of the person who created the code list and the datetime of creation, so name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinckets. Remember, the goal is to help out and reach a wider audiance.
+This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help out and reach a wider audience.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
