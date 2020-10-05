@@ -5,7 +5,11 @@ Ever been in a situation where you had to create medical/drug codes for more tha
 
 # How to use?
 
-Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms.
+Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
+
+### Naming convention 
+
+This tool documents the email id of the person who created the code list and the datetime of creation, so name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinckets. Remember, the goal is to help out and reach a wider audiance.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
