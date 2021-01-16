@@ -1,7 +1,7 @@
 
 # Search medical codes for IMRD, Gold, Aurum, Cegedim and HES databases
 
-Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
+Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool, you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
 
 # How to use?
 
@@ -10,6 +10,8 @@ Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load cod
 ### Naming convention 
 
 This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help out and reach a wider audience.
+
+All the codes you create must have a unique name. You cannot have more than one code list with the same name under your account.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
@@ -26,7 +28,7 @@ To get drug codes you have the options to search any of the following fields.
   
   |Search Field|Description|
   |--|--|
-  |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
+  |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string, or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
   |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [4](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
   |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
@@ -40,20 +42,28 @@ Our tool supports the asterisk (\*) wildcard, it can be used to search for strin
 
 ### Filtering codes
 
-You will be filtering the table to either delete the codes you don't need or to select just those few that are important to you, either way, codes can be filtered in two ways. One option is to use the search bar which performs an overall keyword search as you type across all columns of the table. The another option is to use the filtering functionality to apply keyword filters on particular columns you are intersted. The former is handy when the table size is < ~15K lines, please use the later if the number items in the table is > ~15K.
+You will be filtering the table to either delete the codes you do not need or to select just those few that are important to you, either way, codes can be filtered in two ways. One option is to use the search bar which performs an overall keyword search as you type across all columns of the table. Another option is to use the filtering functionality to apply keyword filters on columns you are interested. The former is handy when the table size is < ~15K lines, please use the later if the number items in the table is > ~15K.
 
-### Downloading the file
+### Downloading the code lists as files
 
-To download the codes as a file make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button
+To download the codes as files, make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button. You can also download existing code lists from the library.
 
-# *new features*
-### Saving the file 
+### Saving the code lists 
 
-Saving codes in the database is similar to the download process, but here you will press the save button instead of download. 
+Saving codes in the database is similar to the download process, but here you will press the save button instead of download. If the database contains a code-list with the same name as the current one, then an overwrite prompt will be presented to you. You can choose to overwrite existing data or press no and change the name and try saving it again. 
 
-### Veiwing code lists in the library 
+*please see naming convention section on how to name your code-lists*
 
-In the library tab you can view the codes you have previously created and also search for codes created by other users. There is an option to download the code list here as well.
+### Viewing code lists in the library 
+
+In the library tab you can view the codes you have previously created and search for codes created by other users. There is an option to download the code list here as well.
+
+
+### Editing code lists 
+
+You can load any code list from the library to the medical codes or drug codes page regardless of who the owner is and add or remove codes according to your interest. Although you cannot overwrite somebody else's code you can save a copy of it for yourself. Or if you are editing your own code-list you can save it as a new object by giving it a new name or choose to overwrite the current object (by not changing its current name and pressing save).
+
+*please see naming convention section on how to name your code-lists*
 
 # Feedback
 
@@ -64,5 +74,5 @@ If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
 1. Display code frequency where available. 
-1. Advanced Search with more opearators.
+1. Advanced Search with more operators.
 1. Step recorder.
