@@ -3,21 +3,6 @@
 
 Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool, you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
 
-# Table of Contents
-- [How to use?](#how-to-use-)
-    + [Naming convention](#naming-convention)
-    + [Medical codes](#medical-codes)
-    + [Drug codes](#drug-codes)
-    + [Using Wildcard](#using-wildcard)
-    + [Filtering codes](#filtering-codes)
-    + [Downloading the code lists as files](#downloading-the-code-lists-as-files)
-    + [Saving the code lists](#saving-the-code-lists)
-    + [Viewing code lists in the library](#viewing-code-lists-in-the-library)
-    + [Editing code lists](#editing-code-lists)
-    + [Uploading code lists - beta version](#uploading-code-lists---beta-version)
-- [Feedback](#feedback)
-- [Roadmap](#roadmap)
-
 # How to use?
 
 Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
