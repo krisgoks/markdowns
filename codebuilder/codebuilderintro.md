@@ -3,6 +3,11 @@
 
 Ever been in a situation where you had to create medical/drug codes for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of this tool, you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
 
+# Table of Contents
+1. [How to use](# How to use?)
+2. [Feedback](# Feedback)
+3. [Roadmap](# Roadmap)
+
 # How to use?
 
 Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
@@ -11,7 +16,7 @@ Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load cod
 
 This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help out and reach a wider audience.
 
-All the codes you create must have a unique name. You cannot have more than one code list with the same name under your account.
+All the codes you create must have a unique name. You cannot have more than one code list with the same name under your account. TThe name you assign can only contain alphanumeric characters with optional underscore. No white spaces allowed or any other special symbols.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
@@ -46,7 +51,7 @@ You will be filtering the table to either delete the codes you do not need or to
 
 ### Downloading the code lists as files
 
-To download the codes as files, make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as csv files by providing a filename and clicking on the download button. You can also download existing code lists from the library.
+To download the codes as files, make sure you have shortlisted the codes you are interested in and that these are populated in the second table, and then you can download the codes as .csv files by providing a filename and clicking on the download button. You can also download existing code lists from the library.
 
 ### Saving the code lists 
 
@@ -65,6 +70,12 @@ You can load any code list from the library to the medical codes or drug codes p
 
 *please see naming convention section on how to name your code-lists*
 
+### Uploading code lists - beta version
+
+You can upload existing code lists stored in .csv files into the appropriate library. To access this, click on the 'Upload a file' tab. The expectation is that the .csv file has a **header** and the codes are in the first column. The software assumes you are uploading the actual medical/drug ids as present in the medical/drug tables in the database. Depending on the database this might be a number, a short string, a hexadecimal value, or may be terms from a clinical coding system. Once you upload the file the software will read the first column (**after skipping the first line**) and look for those codes in the current version of dictionary, if found it will be listed with descriptions and database name. It will also shortlist any codes which may not be present in the dictionary, these will be ignored and cannot be added as of now.
+
+*If you come across a clinical code which you found somewhere else and this code is not present in our dictionary please contact the admin. Please state where you found the code, specify dictionary version to which the code belongs to, and if possible evidence that this code actually exists in the underlying medical database.*
+
 # Feedback
 
 If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
@@ -73,6 +84,7 @@ If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
+1. Upload code from .csv files
 1. Display code frequency where available. 
 1. Advanced Search with more operators.
 1. Step recorder.
