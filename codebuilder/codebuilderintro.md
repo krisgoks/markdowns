@@ -71,6 +71,8 @@ You can upload existing code lists stored in .csv files into the appropriate lib
 
 *If you come across a clinical code which you found somewhere else and this code is not present in our dictionary please contact the admin. Please state where you found the code, specify dictionary version to which the code belongs to, and if possible evidence that this code actually exists in the underlying medical database.*
 
+You can add codes from multiple files to one list, for example you may have lung disease codes for CPRD Aurum, CPRD Gold, IMRD and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
+
 # Feedback
 
 If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
