@@ -73,6 +73,21 @@ You can upload existing code lists stored in .csv files into the appropriate lib
 
 You can add codes from multiple files to one list, for example you may have lung disease codes for CPRD Aurum, CPRD Gold, IMRD and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
 
+# Dictionary update
+
+The following table provides information on when was the last time the source dictionaries were updated and what was the source of the dictionary.
+
+  |Database| Updated on | Source | 
+  |--|--|--|
+  |Medical - (IQVIA)IMRD and/or (Cegedim)THIN| Feb 2021 | Cegedim Feb 2021 Readcodes data dictionary |
+  |Medical - (CPRD)Gold | Feb 2021 | CPRD Gold Jan 2021 medical code dictionary |
+  |Medical - (CPRD)Aurum| Aug 2020 | CPRD Aurum July 2020 medical code data dictionary |
+  |Medical - (HES)ICD10 | April 2020 | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
+  |Drug - (IQVIA)IMRD | Sept 2019 | IMRD Sept 2019 drug code data dictionary |
+  |Drug - (Cegedim)THIN | Feb 2021 | Cegedim Feb 2021 drug code data dictionary |
+  |Drug - (CPRD)Gold | Feb 2021 | CPRD Gold Jan 2021 drug code dictionary |
+  |Drug - (CPRD)Aurum| Aug 2020 | CPRD Aurum July 2020 drug code data dictionary |
+
 # Feedback
 
 If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
