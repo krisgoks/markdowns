@@ -96,7 +96,5 @@ If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-1. Upload code from .csv files
-1. Display code frequency where available. 
-1. Advanced Search with more operators.
 1. Step recorder.
+1. Advanced Search with more operators.
