@@ -73,6 +73,20 @@ You can upload existing code lists stored in .csv files into the appropriate lib
 
 You can add codes from multiple files to one list, for example you may have lung disease codes for CPRD Aurum, CPRD Gold, IMRD and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
 
+
+# Extenal code browsers and tools to look for codelists
+
+- [OpenSAFELY Codelists](https://codelists.opensafely.org/)
+- [Caliber code list](https://caliberresearch.org/portal/codelists)
+- [QoF](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/quality-and-outcomes-framework-qof-business-rules-v37-0)
+- [Manchester code list (optional)](https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/articles/)
+- [Cambridge code list](https://www.phpc.cam.ac.uk/pcu/research/research-groups/crmh/cprd_cam/codelists/v11/)
+- [Snomed CT code browser	SNOMED CT - Clinical finding (finding)](termbrowser.nhs.uk)
+- [ICD-10 browser](https://icd.who.int/browse10/2019/en#/)
+- [NHS medication browser tool](https://applications.nhsbsa.nhs.uk/DMDBrowser/DMDBrowser.do#)
+
+
+
 # Dictionary update
 
 The following table provides information on when was the last time the source dictionaries were updated and what was the source of the dictionary.
