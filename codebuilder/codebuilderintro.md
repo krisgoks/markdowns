@@ -9,17 +9,17 @@ Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load cod
 
 ### Naming convention 
 
-This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help out and reach a wider audience.
+This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help and reach a wider audience.
 
-All the codes you create must have a unique name. You cannot have more than one code list with the same name under your account. TThe name you assign can only contain alphanumeric characters with optional underscore. No white spaces allowed or any other special symbols.
+All the codes you create must have a unique name. You cannot have more than one code list with the same name under your account. The name you assign can only contain alphanumeric characters with optional underscore. No white spaces allowed or any other special symbols.
 
 ### Medical codes
 To get medical codes you have the options to search any of the following fields. 
   
   |Search Field|Description|
   |--|--|
-  |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string or a hexadecimal value.  |
-  |Description| This is the text description of the medical code|
+  |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string, or a hexadecimal value.  |
+  |Description| This is the text description of the medical code. |
   |Medical code| This field may either represent ICD-10 codes or Read codes. ICD-10 is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems, a medical classification list by the World Health Organization [1](https://en.wikipedia.org/wiki/ICD-10). Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. There are two versions: version 2 (v2) and version 3 (CTV3 or v3). Both versions provide a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [2](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) | 
   |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [3](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) |
   
@@ -31,13 +31,13 @@ To get drug codes you have the options to search any of the following fields.
   |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string, or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
   |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [4](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
-  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
+  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological, and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
   
 ### Using Wildcard
 
 Our tool supports the asterisk (\*) wildcard, it can be used to search for strings that are a subset of a bigger text. For example:
- - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **ends with** the term 'Type 1 diabetes'
- - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **starts with** the term 'Type 1 diabetes'
+ - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **end with** the term 'Type 1 diabetes'
+ - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **start with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
 
 ### Filtering codes
@@ -50,9 +50,9 @@ To download the codes as files, make sure you have shortlisted the codes you are
 
 ### Saving the code lists 
 
-Saving codes in the database is similar to the download process, but here you will press the save button instead of download. If the database contains a code-list with the same name as the current one, then an overwrite prompt will be presented to you. You can choose to overwrite existing data or press no and change the name and try saving it again. 
+Saving codes in the database is like the download process, but here you will press the save button instead of download. If the database contains a code-list with the same name as the current one, then an overwrite prompt will be presented to you. You can choose to overwrite existing data or press no and change the name and try saving it again. 
 
-*please see naming convention section on how to name your code-lists*
+*please see naming convention section on how to name your code-lists.*
 
 ### Viewing code lists in the library 
 
@@ -63,25 +63,25 @@ In the library tab you can view the codes you have previously created and search
 
 You can load any code list from the library to the medical codes or drug codes page regardless of who the owner is and add or remove codes according to your interest. Although you cannot overwrite somebody else's code you can save a copy of it for yourself. Or if you are editing your own code-list you can save it as a new object by giving it a new name or choose to overwrite the current object (by not changing its current name and pressing save).
 
-*please see naming convention section on how to name your code-lists*
+*please see naming convention section on how to name your code-lists.*
 
 ### Uploading code lists - beta version
 
-You can upload existing code lists stored in .csv files into the appropriate library. To access this, click on the 'Upload a file' tab. The expectation is that the .csv file has a **header** and the codes are in the first column. The software assumes you are uploading the actual medical/drug ids as present in the medical/drug tables in the database. Depending on the database this might be a number, a short string, a hexadecimal value, or may be terms from a clinical coding system. Once you upload the file the software will read the first column (**after skipping the first line**) and look for those codes in the current version of dictionary, if found it will be listed with descriptions and database name. It will also shortlist any codes which may not be present in the dictionary, these will be ignored and cannot be added as of now.
+You can upload existing code lists stored in .csv files into the appropriate library. To access this, click on the 'Upload a file' tab. The expectation is that the .csv file has a **header**, and the codes are in the first column. The software assumes you are uploading the actual medical/drug ids as present in the medical/drug tables in the database. Depending on the database this might be a number, a short string, a hexadecimal value, or may be terms from a clinical coding system. Once you upload the file the software will read the first column (**after skipping the first line**) and look for those codes in the current version of dictionary, if found it will be listed with descriptions and database name. It will also shortlist any codes which may not be present in the dictionary, these will be ignored and cannot be added as of now.
 
-*If you come across a clinical code which you found somewhere else and this code is not present in our dictionary please contact the admin. Please state where you found the code, specify dictionary version to which the code belongs to, and if possible evidence that this code actually exists in the underlying medical database.*
+*If you come across a clinical code which you found somewhere else and this code is not present in our dictionary please contact the admin. Please state where you found the code, specify dictionary version to which the code belongs to, and if possible, evidence that this code actually exists in the underlying medical database.*
 
 You can add codes from multiple files to one list, for example you may have lung disease codes for CPRD Aurum, CPRD Gold, IMRD and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
 
 
-# External code browsers and tools to look for codelists
+# External code browsers and tools to look for code lists
 
 - [OpenSAFELY Codelists](https://codelists.opensafely.org/)
 - [Caliber code list](https://caliberresearch.org/portal/codelists)
 - [QoF](https://digital.nhs.uk/data-and-information/data-collections-and-data-sets/data-collections/quality-and-outcomes-framework-qof/quality-and-outcome-framework-qof-business-rules/quality-and-outcomes-framework-qof-business-rules-v37-0)
 - [Manchester code list (optional)](https://clinicalcodes.rss.mhs.man.ac.uk/medcodes/articles/)
 - [Cambridge code list](https://www.phpc.cam.ac.uk/pcu/research/research-groups/crmh/cprd_cam/codelists/v11/)
-- [Snomed CT code browser	SNOMED CT - Clinical finding (finding)](termbrowser.nhs.uk)
+- [SnomedCT code browser SNOMEDCT - Clinical finding](https://www.termbrowser.nhs.uk)
 - [ICD-10 browser](https://icd.who.int/browse10/2019/en#/)
 - [NHS medication browser tool](https://applications.nhsbsa.nhs.uk/DMDBrowser/DMDBrowser.do#)
 
@@ -104,7 +104,7 @@ The following table provides information on when was the last time the source di
 
 # Feedback
 
-If you have any feedback or suggestions please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
+If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
 
 # Roadmap
 
