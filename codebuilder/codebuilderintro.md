@@ -40,6 +40,10 @@ Our tool supports the asterisk (\*) wildcard, it can be used to search for strin
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **start with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
 
+SQL also offers a range wildcards than can be used. These include: 
+ - (\_) underscore represends one missing character; it can be used as such `H_pertension` which will match to both `Hypertension` and `Hipertension` (in case it is misspelled)
+ - (\%) percentage has the same functionality as question mark, but it can be used within the search term; it matches zero, one or more characters; one such example would be `Type % diabates` which will match to `Type 1 diabtes`, `Type I diabates` and so on...
+
 ### Filtering codes
 
 You will be filtering the table to either delete the codes you do not need or to select just those few that are important to you, either way, codes can be filtered in two ways. One option is to use the search bar which performs an overall keyword search as you type across all columns of the table. Another option is to use the filtering functionality to apply keyword filters on columns you are interested. The former is handy when the table size is < ~15K lines, please use the later if the number items in the table is > ~15K.
@@ -110,5 +114,4 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-1. Step recorder.
-1. Advanced Search with more operators.
+No new features planned.
