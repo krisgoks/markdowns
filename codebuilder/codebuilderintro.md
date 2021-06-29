@@ -35,14 +35,12 @@ To get drug codes you have the options to search any of the following fields.
   
 ### Using Wildcard
 
-Our tool supports the asterisk (\*) wildcard, it can be used to search for strings that are a subset of a bigger text. For example:
+Our tool supports following wildcards, asterisk (\*), underscore (\_) and percentage (\%). Using these operators you can search for strings that are a subset of a bigger text. For example:
  - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **end with** the term 'Type 1 diabetes'
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **start with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
-
-SQL also offers a range wildcards than can be used. These include: 
- - (\_) underscore represends one missing character; it can be used as such `H_pertension` which will match to both `Hypertension` and `Hipertension` (in case it is misspelled)
- - (\%) percentage has the same functionality as question mark, but it can be used within the search term; it matches zero, one or more characters; one such example would be `Type % diabates` which will match to `Type 1 diabtes`, `Type I diabates` and so on...
+ - (\_) underscore represents a single character to match; For example, if we search `Type _ diabetes` our results will include a range of terms such as, Type `1` diabetes, Type `2` diabetes, Type `I` diabetes, etc.
+ - (\%) percentage operator matches zero, one or more characters; searching for `hyp%tion` would yeild results such as Hyp`erkinetic reac`tion, Hyp`ersecre`tion, Hyp`erpigmenta`tion, hyp`erten`tion, and so on...
 
 ### Filtering codes
 
@@ -114,4 +112,4 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-No new features planned.
+- Advanced Search.
