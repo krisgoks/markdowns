@@ -93,16 +93,16 @@ You can add codes from multiple files to one list, for example you may have lung
 
 The following table provides information on when was the last time the source dictionaries were updated and what was the source of the dictionary.
 
-  |Database| Updated on | Source | 
+  |Database| Current Version | Previously Updated On | Source | 
   |--|--|--|
-  |Medical - (IQVIA)IMRD and/or (Cegedim)THIN| 22nd Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
-  |Medical - (CPRD)Gold | 8th Feb 2021 | CPRD Gold Jan 2021 medical code dictionary |
-  |Medical - (CPRD)Aurum| Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
-  |Medical - (HES)ICD10 | April 2020 | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
-  |Drug - (IQVIA)IMRD | Sept 2019 | IMRD Sept 2019 drug code dictionary |
-  |Drug - (Cegedim)THIN | 22nd Feb 2021 | Cegedim Feb 2021 drug code dictionary |
-  |Drug - (CPRD)Gold | 8th Feb 2021 | CPRD Gold Jan 2021 drug code dictionary |
-  |Drug - (CPRD)Aurum| Aug 2020 | CPRD Aurum July 2020 drug code dictionary |
+  |Medical - (IQVIA)IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | | Cegedim Feb 2021 Read code data dictionary |
+  |Medical - (CPRD)Gold | 8 Feb 2021 | | CPRD Gold Jan 2021 medical code dictionary |
+  |Medical - (CPRD)Aurum| | Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
+  |Medical - (HES)ICD10 | Apr 2020 | | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
+  |Drug - (IQVIA)IMRD | 29 Jun 2021 | Sept 2019 | IMRD Sept 2019 drug code dictionary |
+  |Drug - (Cegedim)THIN | 22 Feb 2021 | | Cegedim Feb 2021 drug code dictionary |
+  |Drug - (CPRD)Gold | 8 Feb 2021 | | CPRD Gold Jan 2021 drug code dictionary |
+  |Drug - (CPRD)Aurum| | Aug 2020 | CPRD Aurum July 2020 drug code dictionary |
 
 # Feedback
 
