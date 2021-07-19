@@ -94,7 +94,7 @@ You can add codes from multiple files to one list, for example you may have lung
 The following table provides information on when was the last time the source dictionaries were updated and what was the source of the dictionary.
 
   |Database| Current Version | Previously Updated On | Source | 
-  |--|--|--|
+  |--|--|--|--|
   |Medical - (IQVIA)IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
   |Medical - (CPRD)Gold | 8 Feb 2021 | | CPRD Gold Jan 2021 medical code dictionary |
   |Medical - (CPRD)Aurum| | Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
