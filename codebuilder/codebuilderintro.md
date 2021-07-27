@@ -5,7 +5,9 @@ Ever been in a situation where you had to create medical/drug codes for more tha
 
 # How to use?
 
-Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to load codes you want to create today. The search can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
+Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to start creating code lists. You can search the database using one of the following options- 
+ - A simple search - can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
+ - An advanced search - can be performed by building a SQL WHERE clause to filter records. This method is more useful if you want to apply various logical operations on different fields and different keywords and extract only those records that fulfil the specified condition.
 
 ### Naming convention 
 
@@ -33,14 +35,14 @@ To get drug codes you have the options to search any of the following fields.
   |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [4](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
   |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological, and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
   
-### Using Wildcard
+### use of Wildcard in simple search
 
-Our tool supports following wildcards, asterisk (\*), underscore (\_) and percentage (%25). Using these operators you can search for strings that are a subset of a bigger text. For example:
+Our tool supports following wildcards, asterisk (\*), underscore (\_) and percentage (%). Using these operators you can search for strings that are a subset of a bigger text. For example:
  - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **end with** the term 'Type 1 diabetes'
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **start with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
  - (\_) underscore represents a single character to match; For example, if we search `Type _ diabetes` our results will include a range of terms such as, Type `1` diabetes, Type `2` diabetes, Type `I` diabetes, etc.
- - (\%) percentage operator matches zero, one or more characters; searching for `hyp%tion` would yeild results such as Hyp`erkinetic reac`tion, Hyp`ersecre`tion, Hyp`erpigmenta`tion, hyp`erten`tion, and so on...
+ - (%) percentage operator matches zero, one or more characters; searching for `hyp%tion` would yield results such as Hyp`erkinetic reac`tion, Hyp`ersecre`tion, Hyp`erpigmenta`tion and so on...
 
 ### Filtering codes
 
@@ -112,4 +114,3 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-- Advanced Search.
