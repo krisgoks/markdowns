@@ -35,7 +35,7 @@ To get drug codes you have the options to search any of the following fields.
   
 ### Using Wildcard
 
-Our tool supports following wildcards, asterisk (\*), underscore (\_) and percentage (\%). Using these operators you can search for strings that are a subset of a bigger text. For example:
+Our tool supports following wildcards, asterisk (\*), underscore (\_) and percentage (%25). Using these operators you can search for strings that are a subset of a bigger text. For example:
  - Searching medical codes descriptions with `*Type 1 diabetes` yields all the codes where the descriptions **end with** the term 'Type 1 diabetes'
  - Similarly searching medical codes descriptions with `Type 1 diabetes*` yields all the codes where the descriptions **start with** the term 'Type 1 diabetes'
  - Alternatively, you can just type `Type 1 diabetes` or you can use the asterisk operator as follows ```*Type 1 diabetes*``` to search for all medical codes whose description **contains** the term 'Type 1 diabetes'
