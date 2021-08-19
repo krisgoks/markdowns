@@ -91,9 +91,9 @@ You can add codes from multiple files to one list, for example you may have lung
 
 
 
-# Dictionary update
+# Dictionary update and version
 
-The following table provides information on when was the last time the source dictionaries were updated and what was the source of the dictionary.
+The application provides information on what source dictionary was used based on the date the code-list was created. You can view that information on the library tab. The following table provides a quick glance on when was the last time the source dictionaries were updated and what was the source of the dictionary.
 
   |Database| Current Version | Previously Updated On | Source | 
   |--|--|--|--|
@@ -115,4 +115,3 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
 - Comparing code-lists
-- Display database version
