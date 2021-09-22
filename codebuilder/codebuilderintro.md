@@ -58,9 +58,9 @@ Saving codes in the database is like the download process, but here you will pre
 
 *please see naming convention section on how to name your code-lists.*
 
-### Viewing code lists in the library 
+### Viewing and comparing code lists in the library
 
-In the library tab you can view the codes you have previously created and search for codes created by other users. There is an option to download the code list here as well.
+In the library tab you can view the codes you have previously created and search for codes created by other users. Similarly, if you select any two code lists in the library you can compare them. There is an option to download the code list here as well. 
 
 
 ### Editing code lists 
@@ -114,4 +114,4 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-- Comparing code-lists
+- Viewing AHD codes
