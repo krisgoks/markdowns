@@ -62,6 +62,9 @@ Saving codes in the database is like the download process, but here you will pre
 
 In the library tab you can view the codes you have previously created and search for codes created by other users. Similarly, if you select any two code lists in the library you can compare them. There is an option to download the code list here as well. 
 
+### Viewing the Additional Health Data codes (AHD codes)
+
+You can view codes related to laboratory tests, physical measurements, lifestyle etc in the AHD codes tab.
 
 ### Editing code lists 
 
@@ -110,8 +113,11 @@ The application provides information on what source dictionary was used based on
 
 If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham.ac.uk](mailto:k.m.gokhale@bham.ac.uk), mention 'TheOneCodeBuilder - feedback/suggestion' in the subject. If you are reporting any bugs please mention 'TheOneCodeBuilder - bugs' in the subject and please do send a [Minimal, Reproducible Example](https://stackoverflow.com/help/minimal-reproducible-example).
 
+
 # Roadmap
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-- Viewing AHD codes
+- none
+
+
