@@ -72,7 +72,7 @@ You can load any code list from the library to the medical codes or drug codes p
 
 *please see naming convention section on how to name your code-lists.*
 
-### Uploading code lists - beta version
+### Uploading code lists
 
 You can upload existing code lists stored in .csv files into the appropriate library. To access this, click on the 'Upload a file' tab. The expectation is that the .csv file has a **header**, and the codes are in the first column. The software assumes you are uploading the actual medical/drug ids as present in the medical/drug tables in the database. Depending on the database this might be a number, a short string, a hexadecimal value, or may be terms from a clinical coding system. Once you upload the file the software will read the first column (**after skipping the first line**) and look for those codes in the current version of dictionary, if found it will be listed with descriptions and database name. It will also shortlist any codes which may not be present in the dictionary, these will be ignored and cannot be added as of now.
 
