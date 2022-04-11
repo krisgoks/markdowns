@@ -64,7 +64,7 @@ In the library tab you can view the codes you have previously created and search
 
 ### Viewing the Additional Health Data codes (AHD codes)
 
-You can view codes related to laboratory tests, physical measurements, lifestyle etc in the AHD codes tab.
+You can view codes related to laboratory tests, physical measurements, lifestyle etc in the AHD codes tab under Library.
 
 ### Editing code lists 
 
@@ -118,6 +118,6 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-- none
+- Record documentation on the Code Builder
 
 
