@@ -9,6 +9,8 @@ Click on ‘Medical codes’ or ‘Drug codes’ in the left sidebar to start cr
  - A simple search - can be conducted using various terms. If more than one field is populated at a time, then the app applies a logical OR operator between terms. 
  - An advanced search - can be performed by building a SQL WHERE clause to filter records. This method is more useful if you want to apply various logical operations on different fields and different keywords and extract only those records that fulfil the specified condition.
 
+> Please make sure to clear the workspace by pressing the "CLEAR ALL" button before you begin a new search.
+
 ### Naming convention 
 
 This tool documents the email id of the person who created the code list and the date time of creation, so the name of the code lists you create should only need to include a clinical term. For example, a code list for Interstitial Lung Disease could simply be named ILD. We encourage you to select a simple, generic name without adding any personal trinkets. Remember, the goal is to help and reach a wider audience.
