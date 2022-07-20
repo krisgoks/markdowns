@@ -24,8 +24,8 @@ To get medical codes you have the options to search any of the following fields.
   |--|--|
   |Medical Id| Medical Id is the actual term stored in the medical database that represents the code you are looking for, this might be a number, a short string, or a hexadecimal value.  |
   |Description| This is the text description of the medical code. |
-  |Medical code| This field may either represent ICD-10 codes or Read codes. ICD-10 is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems, a medical classification list by the World Health Organization [1](https://en.wikipedia.org/wiki/ICD-10). Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. It provides a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [2](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) | 
-  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [3](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) |
+  |Medical code| This field may either represent ICD-10, OPCS codes or Read codes. ICD-10 is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems, a medical classification list by the World Health Organization [1](https://en.wikipedia.org/wiki/ICD-10). OPCS-4 Classification of Interventions and Procedures is a statistical classification for clinical coding of hospital interventions and procedures undertaken by the NHS [2](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/dcb0084-opcs-classification-of-interventions-and-procedures). Read Codes are a coded thesaurus of clinical terms. They have been used in the NHS since 1985. It provides a standard vocabulary for clinicians to record patient findings and procedures, in health and social care IT systems across primary and secondary care. [3](https://digital.nhs.uk/services/terminology-and-classifications/read-codes) | 
+  |SnomedCT code| SNOMED CT is a structured clinical vocabulary for use in an electronic health record. It is the most comprehensive and precise clinical health terminology product in the world. [4](https://digital.nhs.uk/services/terminology-and-classifications/snomed-ct) |
   
 ### Drug codes
 To get drug codes you have the options to search any of the following fields. 
@@ -34,8 +34,8 @@ To get drug codes you have the options to search any of the following fields.
   |--|--|
   |Drug Id| Drug Id is the actual term stored in the drug database that represents the code you are looking for, this might be a number, a short string, or a hexadecimal value.  |
   |Description| This is the text description of the drug code, this will also include (where available) the drug substance, strength, route of administration etc. |
-  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [4](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
-  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological, and chemical properties. [5](https://www.whocc.no/atc_ddd_index/)|
+  |BNF code| The BNF codes from this pseudo-classification are used in the prescribing dataset as a unique identifier to show what was prescribed. These BNF codes can tell you a lot about a drug or appliance. [5](https://digital.nhs.uk/data-and-information/areas-of-interest/prescribing/practice-level-prescribing-in-england-a-summary/practice-level-prescribing-glossary-of-terms)|
+  |ATC code| The Anatomical Therapeutic Chemical Classification System is a drug classification system that classifies the active ingredients of drugs according to the organ or system on which they act and their therapeutic, pharmacological, and chemical properties. [6](https://www.whocc.no/atc_ddd_index/)|
   
 ### use of Wildcard in simple search
 
@@ -102,14 +102,15 @@ The application provides information on what source dictionary was used based on
 
   |Database| Current Version | Previously Updated On | Source | 
   |--|--|--|--|
-  |Medical - (IQVIA)IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
-  |Medical - (CPRD)Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 medical code dictionary |
-  |Medical - (CPRD)Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
-  |Medical - (HES)ICD10 | Apr 2020 | | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
-  |Drug - (IQVIA)IMRD | 29 Jun 2021 | Sept 2019 | IMRD Sept 2019 drug code dictionary |
-  |Drug - (Cegedim)THIN | 22 Feb 2021 | - | Cegedim Feb 2021 drug code dictionary |
-  |Drug - (CPRD)Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 drug code dictionary |
-  |Drug - (CPRD)Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 drug code dictionary |
+  |Medical - (IQVIA) IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
+  |Medical - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 medical code dictionary |
+  |Medical - (CPRD) Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
+  |Medical - (HES) ICD10 | Apr 2020 | | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
+  |Medical - (HES) OPCSv4.9 | Apr 2020 | | [NHS Classifications OPCS-4](https://isd.digital.nhs.uk/trud/users/authenticated/filters/0/categories/10) |
+  |Drug - (IQVIA) IMRD | 29 Jun 2021 | Sept 2019 | IMRD Sept 2019 drug code dictionary |
+  |Drug - (Cegedim) THIN | 22 Feb 2021 | - | Cegedim Feb 2021 drug code dictionary |
+  |Drug - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 drug code dictionary |
+  |Drug - (CPRD) Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 drug code dictionary |
 
 # Feedback
 
@@ -120,7 +121,6 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
-- Adding OPCS v4.9 dictionary to code builder
 - Adding DM+D codes to drug codes where the linkage is available
 - Record documentation on the Code Builder
 
