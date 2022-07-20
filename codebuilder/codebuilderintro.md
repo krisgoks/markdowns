@@ -120,6 +120,8 @@ If you have any feedback or suggestions, please write to me at [k.m.gokhale@bham
 
 The following are some of the new features we are experimenting. However, these features may change significantly before they are incorporated into the app or it may not be implemented after all. 
 
+- Adding OPCS v4.9 dictionary to code builder
+- Adding DM+D codes to drug codes where the linkage is available
 - Record documentation on the Code Builder
 
 
