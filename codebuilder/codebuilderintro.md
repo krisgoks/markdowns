@@ -104,13 +104,13 @@ The application provides information on what source dictionary was used based on
   |--|--|--|--|
   |Medical - (IQVIA) IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
   |Medical - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 medical code dictionary |
-  |Medical - (CPRD) Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 medical code dictionary |
+  |Medical - (CPRD) Aurum| 10 Oct 2022 | 19 July 2021, Aug 2020 | CPRD Aurum May 2022 medical code dictionary |
   |Medical - (HES) ICD10 | Apr 2020 | | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
   |Medical - (HES) OPCSv4.9 | Apr 2020 | | [NHS Classifications OPCS-4](https://isd.digital.nhs.uk/trud/users/authenticated/filters/0/categories/10) |
   |Drug - (IQVIA) IMRD | 29 Jun 2021 | Sept 2019 | IMRD Sept 2019 drug code dictionary |
   |Drug - (Cegedim) THIN | 22 Feb 2021 | - | Cegedim Feb 2021 drug code dictionary |
   |Drug - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 drug code dictionary |
-  |Drug - (CPRD) Aurum| 19 Jul 2021 | Aug 2020 | CPRD Aurum July 2020 drug code dictionary |
+  |Drug - (CPRD) Aurum| 10 Oct 2022 | 19 July 2021, Aug 2020 | CPRD Aurum May 2022 drug code dictionary |
 
 # Feedback
 
