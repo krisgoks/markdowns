@@ -1,7 +1,6 @@
+# Search clinical codes for Primary and Secondary care databases
 
-# Search clinical codes for IMRD, Gold, Aurum, Cegedim and HES databases
-
-Ever been in a situation where you had to create many clinical codes and for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of DExtER Code Builder tool, you can search for various medical codes and drug codes across different medical databases such as IMRD, CPRD Gold, CPRD Aurum and HES simultaneously.
+Ever been in a situation where you had to create many clinical codes and for more than one EMR system? And worse, you had to do it individually for each database? Well, your worries are now over! With the help of DExtER Code Builder tool, you can search for various medical codes and drug codes across different medical databases such as SnomedCT, Read codes and HES simultaneously.
 
 # How to use?
 
@@ -80,7 +79,7 @@ You can upload existing code lists stored in .csv files into the appropriate lib
 
 *If you come across a clinical code which you found somewhere else and this code is not present in our dictionary please contact the admin. Please state where you found the code, specify dictionary version to which the code belongs to, and if possible, evidence that this code actually exists in the underlying medical database.*
 
-You can add codes from multiple files to one list, for example you may have lung disease codes for CPRD Aurum, CPRD Gold, IMRD and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
+You can add codes from multiple files to one list, for example you may have lung disease codes for Snomed CT, Read and ICD10 stored in separate .csv files and you wish to upload these codes to the system but store it under one code list named "LungDisease" rather than create 4 disparate lists. To do this, first choose the appropriate database option and then upload the corresponding file and repeat this process till you have added all other related files to this list and in the end press save.
 
 
 # External code browsers and tools to look for code lists
@@ -102,15 +101,11 @@ The application provides information on what source dictionary was used based on
 
   |Database| Current Version | Previously Updated On | Source | 
   |--|--|--|--|
-  |Medical - (IQVIA) IMRD and/or (Cegedim)THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
-  |Medical - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 medical code dictionary |
-  |Medical - (CPRD) Aurum| 10 Oct 2022 | 19 July 2021, Aug 2020 | CPRD Aurum May 2022 medical code dictionary |
+  |Medical - Cegedim - THIN | 29 Jun 2021 | 22 Feb 2021 | Cegedim Feb 2021 Read code data dictionary |
+  |Medical - SnomedCT| 10 Oct 2022 | 19 July 2021, Aug 2020 | May 2022 Snomed CT medical code dictionary |
   |Medical - (HES) ICD10 | Apr 2020 | | [NHS ICD-10 5th Edition data files](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/1/subpack/258/releases) |
   |Medical - (HES) OPCSv4.9 | Apr 2020 | | [NHS Classifications OPCS-4](https://isd.digital.nhs.uk/trud/users/authenticated/filters/0/categories/10) |
-  |Drug - (IQVIA) IMRD | 29 Jun 2021 | Sept 2019 | IMRD Sept 2019 drug code dictionary |
   |Drug - (Cegedim) THIN | 22 Feb 2021 | - | Cegedim Feb 2021 drug code dictionary |
-  |Drug - (CPRD) Gold | 8 Feb 2021 | - | CPRD Gold Jan 2021 drug code dictionary |
-  |Drug - (CPRD) Aurum| 10 Oct 2022 | 19 July 2021, Aug 2020 | CPRD Aurum May 2022 drug code dictionary |
 
 # Feedback
 
@@ -123,5 +118,3 @@ The following are some of the new features we are experimenting. However, these 
 
 - Adding DM+D codes to drug codes where the linkage is available
 - Record documentation on the Code Builder
-
-
